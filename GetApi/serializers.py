@@ -4,4 +4,4 @@ from .models import GetApi
 class GetApiSerializer(serializers.ModelSerializer):
     class Meta:
         model = GetApi
-        fields = ('slackUsername', 'backend', 'age', 'bio')
+        fields = '__all__'
